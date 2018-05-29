@@ -71,7 +71,7 @@
 &nbsp;&nbsp;6）另一种方法是可以直接使用`node的服务启动命令npm`来启动应用； <br>
 
 ### 3.2 服务端部署
-&nbsp;&nbsp;注意，将`gd-eureka-server`、`gd-email-server`、`gd-music-server`放在同一个目录下，并用IDEA打开这同一个目录，操作过程中需要等待下载完所需的jar包。
+&nbsp;&nbsp;<font color="red">注意，将`gd-eureka-server`、`gd-email-server`、`gd-music-server`放在同一个目录下，并用IDEA打开这同一个目录，操作过程中需要等待下载完所需的jar包。</font>
 #### 3.2.1 治理服务
 &nbsp;&nbsp;1）在IDEA中导入`gd-eureka-server`服务的module； <br>
 &nbsp;&nbsp;2）点击IDEA的启动按钮即可将服务启动； <br>
@@ -86,3 +86,6 @@
 &nbsp;&nbsp;2）在`gd-music-server`中的`application.properties`文件中的`spring.datasource.password`后配置数据库密码，并配置`Redis`的用户和密码等配置；<br>
 &nbsp;&nbsp;3）在`gd-email-server`中的`application.properties`文件中的`url.link`后配置Nginx服务所在的`IP和端口（如果有域名直接将IP和端口改成域名即可）`；<br>
 &nbsp;&nbsp;4）在IDEA下直接点击服务启动按钮即可将音乐服务启动起来；<br>
+
+#### 3.2.4 数据库部署
+&nbsp;&nbsp;可以按照论文中`数据库设计与系统实现`这一章节的中的数据库设计的一部分进行数据库配置。<font color="red">需要注意的是最好将邮件服务数据库重新命名成`gd_email_server `，将音乐服务命名成`gd_music_server `</font>
