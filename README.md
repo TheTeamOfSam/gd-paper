@@ -19,7 +19,7 @@
 			<td>前端</td>
 			<td>前端音乐服务，负责前端展示和用户交互的服务</td>
 			<td>
-				<a href="https://github.com/TheTeamOfSam/gd-music-frontend.git">https://github.com/TheTeamOfSam/gd-music-frontend.git</a>
+				<a href="https://github.com/TheTeamOfSam/gd-music-frontend.git" target="_blank">https://github.com/TheTeamOfSam/gd-music-frontend.git</a>
 			</td>
 		</tr>
 	</tbody>
