@@ -73,7 +73,7 @@
 ### 3.2 服务端部署
 
 &nbsp;&nbsp;
- <font color="red">注意，将`gd-eureka-server`、`gd-email-server`、`gd-music-server`放在同一个目录下，并用IDEA打开这同一个目录，操作过程中需要等待下载完所需的jar包。</font> 
+ <span style="color: red">注意，将`gd-eureka-server`、`gd-email-server`、`gd-music-server`放在同一个目录下，并用IDEA打开这同一个目录，操作过程中需要等待下载完所需的jar包。</span> 
 
 #### 3.2.1 治理服务
 &nbsp;&nbsp;1）在IDEA中导入`gd-eureka-server`服务的module； <br>
@@ -92,4 +92,4 @@
 
 #### 3.2.4 数据库部署
 &nbsp;&nbsp;可以按照论文中`数据库设计与系统实现`这一章节的中的数据库设计的一部分进行数据库配置。
- <font color="red">需要注意的是最好将邮件服务数据库重新命名成`gd_email_server `，将音乐服务命名成`gd_music_server `</font>
+ <span style="color: red">需要注意的是最好将邮件服务数据库重新命名成`gd_email_server `，将音乐服务命名成`gd_music_server `</span>
