@@ -1,6 +1,6 @@
 # <center>毕业设计——基于Java Web的在线音乐网站</center>
 
-## <font size=5>一 项目地址</font>
+## 一 项目地址
 
 <table>
 	<thread>
@@ -51,3 +51,14 @@
 		</tr>
 	</tbody>
 </table>
+
+## 二 项目部署需要的IDE
+### 2.1 前端IDE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+WebStorm
+### 2.2 服务端IDE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+IntelliJ IDEA
+### 2.3 数据库IDE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MySQL、Navicat Premium
+
